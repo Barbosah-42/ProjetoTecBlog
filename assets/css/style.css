@@ -1,23 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+    background: gray;
 }
 
 /* Cabeçalho  Inicio*/
     #header{
         background-color: rgb(247, 182, 0);
-        padding-bottom: 20px;
-        padding-top: 0 ;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        right: 0;
-        left: 0;
+        text-align: center;
+        padding: 15px;
     }
 
     /* LOGO INICIO*/
-    #header-logo{
-    text-align: center;
-    position: relative;
+    #header-logo, #nav{
+        padding: 10px;
     }
 
     #logo{
@@ -27,6 +26,11 @@ body{
 
     .white{
         color: #fff;
+    }
+
+    #header-logo h1{
+        margin: 0;
+        padding: 0;
     }
     /* LOGO FIM*/
 
@@ -52,5 +56,5 @@ body{
         border-radius: 50px;
     }
     /*NAVEGAÇÃO FIM*/
-    
+
 /* Cabeçalho  FIM*/
