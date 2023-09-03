@@ -4,7 +4,7 @@
 }
 body{
     font-family: "Trebuchet MS", "Helvetica", "sans-serif";
-    background: gray;
+    background: rgb(177, 191, 202);
 }
 
 /* Cabeçalho  Inicio*/
@@ -54,7 +54,18 @@ body{
         background: #fff;
         color: rgb(247, 182, 0);
         border-radius: 50px;
+        transition-duration: 500ms;
     }
     /*NAVEGAÇÃO FIM*/
 
 /* Cabeçalho  FIM*/
+
+/* Inicio Main */
+    #area-main{
+        width: 900px;
+        background: #fff;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+/* Inicio Main /*
