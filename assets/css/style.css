@@ -62,10 +62,51 @@ body{
 
 /* Inicio Main */
     #area-main{
-        width: 900px;
-        background: #fff;
+        width: 920px;
+        padding: 15px;
         margin: auto;
-        margin-top: 20px;
     }
-    
-/* Inicio Main /*
+
+    #postagens{
+        width: 620px;
+        float: left;        
+    }
+
+    .posts{
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+
+    .title-post{
+        color: rgb(247, 182, 0);
+    }
+
+    .data-post{
+        border: 1px solid #fff;
+        display: block;
+        font-size: 0.8em;
+        margin-bottom: 10px;
+        padding-bottom: 10px;      
+    }
+
+    .img-post{
+        width: 580px;
+        border-radius: 20px 0px 20px;
+    }
+
+    .text-post{
+        padding-top: 10px;
+        text-align: justify;
+    }
+
+    .link-post{
+        text-decoration: none;
+        color: rgb(248, 182, 0);
+    }
+
+    .link-post:hover{
+        text-decoration: underline;
+    }
+/* Fim Main */
+
