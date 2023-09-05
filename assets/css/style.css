@@ -76,6 +76,7 @@ body{
         padding: 15px;
         background-color: #fff;
         border-radius: 20px;
+        margin-bottom: 20px;
     }
 
     .title-post{
@@ -103,10 +104,26 @@ body{
     .link-post{
         text-decoration: none;
         color: rgb(248, 182, 0);
+        position: relative;
+    }
+
+    .link-post:after{
+        content: "";
+        position: absolute;
+        background: rgb(247, 182, 0);
+        height: 1px;
+        width: 0;
+        left: 0;
+        bottom: 0;
+        transition: 0.3s;
+    }
+
+    .link-post:hover::after{
+        width: 100%;
     }
 
     .link-post:hover{
-        text-decoration: underline;
+        color: rgb(241, 205, 96);
     }
 /* Fim Main */
 
