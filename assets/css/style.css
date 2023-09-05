@@ -68,7 +68,7 @@ body{
     }
 
     #postagens{
-        width: 620px;
+        width: 660px;
         float: left;        
     }
 
@@ -92,8 +92,8 @@ body{
     }
 
     .img-post{
-        width: 580px;
-        border-radius: 20px 0px 20px;
+        width: 630px;
+        border-radius: 0px 20px 0px 20px;
     }
 
     .text-post{
@@ -101,13 +101,13 @@ body{
         text-align: justify;
     }
 
-    .link-post{
+    .link-fomart{
         text-decoration: none;
         color: rgb(248, 182, 0);
         position: relative;
     }
 
-    .link-post:after{
+    .link-fomart:after{
         content: "";
         position: absolute;
         background: rgb(247, 182, 0);
@@ -118,12 +118,66 @@ body{
         transition: 0.3s;
     }
 
-    .link-post:hover::after{
+    .link-fomart:hover::after{
         width: 100%;
     }
 
-    .link-post:hover{
+    .link-fomart:hover{
         color: rgb(241, 205, 96);
     }
 /* Fim Main */
+
+/* Inicio Side Menu*/
+    .side-menu{
+        width: 240px;
+        float: right;
+    }
+
+    .side-title{
+        color: rgb(255, 240, 240);
+        background-color: rgb(247, 182, 0);
+        padding: 5px;
+        margin-bottom: 0;
+    }
+
+    .side-content{
+        background-color: #fff;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        padding: 1px 1px 10px 1px;
+    }
+
+    .side-posting{
+        border-bottom: 1px dotted #ccc;
+        padding: 5px 10px;
+    }
+
+    
+    .link-menu-side a{
+        display: block;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 0 10px;
+        color: rgb(247, 182, 0);
+    }
+
+    .link-menu-side a:hover{
+        text-decoration: underline;
+    }
+
+    .side-posting p{
+        font-size: 0.8em;
+        padding: 0 5px;
+        text-align: justify;
+    }
+
+    .side-posting a{
+        font-size: 0.8em;
+        padding: 0 5px;
+    }
+
+    .side-content h3{
+        margin: 10px;
+    }
+/* Fim Side Menu*/
 
