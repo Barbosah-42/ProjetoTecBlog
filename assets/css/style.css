@@ -1,193 +1,198 @@
+/*Clear default formatting*/
 *{
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: "Trebuchet MS", "Helvetica", "sans-serif";
     background: rgb(177, 191, 202);
 }
 
-/* Cabeçalho  Inicio*/
-    #header{
-        background-color: rgb(247, 182, 0);
-        text-align: center;
-        padding: 15px;
-    }
+/* ----LAYOUT HEADER---- */
 
-    /* LOGO INICIO*/
-    #header-logo, #nav{
-        padding: 10px;
-    }
+#header{
+    background-color: rgb(247, 182, 0);
+    text-align: center;
+    padding: 15px;
+}
 
-    #logo{
-        color: rgb(78, 78, 78);
-        font-size: 2.5em;
-    }
+#nav{
+    text-align: center;
+}
 
-    .white{
-        color: #fff;
-    }
+#header-logo, #nav{
+    padding: 10px;
+}
 
-    #header-logo h1{
-        margin: 0;
-        padding: 0;
-    }
-    /* LOGO FIM*/
+#logo{
+    color: rgb(78, 78, 78);
+    font-size: 2.5em;
+}
 
-    /*NAVEGAÇÃO INICIO*/
-    #nav{
-        text-align: center;
-    }
+.white{
+    color: #fff;
+}
 
-    #nav a{
-        text-decoration: none;
-        padding: 20px;
-        color: #fff;
-    }
+/* ----FORMATAÇÃO MENU---- */
 
-    #nav a:link{
-        padding: 8px 10px;
-        color: #fff;
-    }
+#header-logo h1{
+    margin: 0;
+    padding: 0;
+}
 
-    #nav a:hover{
-        background: #fff;
-        color: rgb(247, 182, 0);
-        border-radius: 50px;
-        transition-duration: 500ms;
-    }
-    /*NAVEGAÇÃO FIM*/
+#nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+}
 
-/* Cabeçalho  FIM*/
+#nav a:link{
+    padding: 8px 10px;
+    color: #fff;
+}
 
-/* Inicio Main */
-    #area-main{
-        width: 920px;
-        padding: 15px;
-        margin: auto;
-    }
+#nav a:hover{
+    background: #fff;
+    color: rgb(247, 182, 0);
+    border-radius: 50px;
+    transition-duration: 500ms;
+}
 
-    #postagens{
-        width: 660px;
-        float: left;        
-    }
+/* ----LAYOUT MAIN---- */
 
-    .posts{
-        padding: 15px;
-        background-color: #fff;
-        border-radius: 20px;
-        margin-bottom: 20px;
-    }
+#area-main{
+    width: 920px;
+    padding: 15px;
+    margin: auto;
+}
 
-    .title-post{
-        color: rgb(247, 182, 0);
-    }
+#postagens{
+    width: 660px;
+    float: left;        
+}
 
-    .data-post{
-        border: 1px solid #fff;
-        display: block;
-        font-size: 0.8em;
-        margin-bottom: 10px;
-        padding-bottom: 10px;      
-    }
+.posts{
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
 
-    .img-post{
-        width: 630px;
-        border-radius: 0px 20px 0px 20px;
-    }
+.title-post{
+    color: rgb(247, 182, 0);
+}
 
-    .text-post{
-        padding-top: 10px;
-        text-align: justify;
-    }
+.data-post{
+    border: 1px solid #fff;
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    padding-bottom: 10px;      
+}
 
-    .link-fomart{
-        text-decoration: none;
-        color: rgb(248, 182, 0);
-        position: relative;
-    }
+.img-post{
+    width: 630px;
+    border-radius: 0px 20px 0px 20px;
+}
 
-    .link-fomart:after{
-        content: "";
-        position: absolute;
-        background: rgb(247, 182, 0);
-        height: 1px;
-        width: 0;
-        left: 0;
-        bottom: 0;
-        transition: 0.3s;
-    }
+.text-post{
+    padding-top: 10px;
+    text-align: justify;
+}
 
-    .link-fomart:hover::after{
-        width: 100%;
-    }
+.link-fomart{
+    text-decoration: none;
+    color: rgb(248, 182, 0);
+    position: relative;
+}
 
-    .link-fomart:hover{
-        color: rgb(241, 205, 96);
-    }
-/* Fim Main */
 
-/* Inicio Side Menu*/
-    .side-menu{
-        width: 240px;
-        float: right;
-    }
+/* ----FORMATAÇÃO MAIN LINKS---- */
 
-    .side-title{
-        color: rgb(255, 240, 240);
-        background-color: rgb(247, 182, 0);
-        padding: 5px;
-        margin-bottom: 0;
-    }
+.link-fomart:after{
+    content: "";
+    position: absolute;
+    background: rgb(247, 182, 0);
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
 
-    .side-content{
-        background-color: #fff;
-        border-radius: 15px;
-        margin-bottom: 20px;
-        padding: 1px 1px 10px 1px;
-    }
+.link-fomart:hover::after{
+    width: 100%;
+}
 
-    .side-posting{
-        border-bottom: 1px dotted #ccc;
-        padding: 5px 10px;
-    }
+.link-fomart:hover{
+    color: rgb(241, 205, 96);
+}
 
-    
-    .link-menu-side a{
-        display: block;
-        text-decoration: none;
-        text-transform: capitalize;
-        padding: 0 10px;
-        color: rgb(247, 182, 0);
-    }
 
-    .link-menu-side a:hover{
-        text-decoration: underline;
-    }
+/* ----LAYOUT SIDE MENU---- */
 
-    .side-posting p{
-        font-size: 0.8em;
-        padding: 0 5px;
-        text-align: justify;
-    }
+.side-menu{
+    width: 240px;
+    float: right;
+}
 
-    .side-posting a{
-        font-size: 0.8em;
-        padding: 0 5px;
-    }
+.side-content{
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 1px 1px 10px 1px;
+}
 
-    .side-content h3{
-        margin: 10px;
-    }
-/* Fim Side Menu*/
+.side-title{
+    color: rgb(255, 240, 240);
+    background-color: rgb(247, 182, 0);
+    padding: 5px;
+    margin-bottom: 0;
+}
 
-/* Inicio Rodapé*/
-    #rodape{
-        clear: both;
-        background-color: rgb(247, 182, 0);
-        text-align: center;
-        padding: 50px;
-        color: #fff;
-    }
-/* Fim Rodapé*/
+.side-posting{
+    border-bottom: 1px dotted #ccc;
+    padding: 5px 10px;
+}
+
+/* FORMATAÇÃO SIDE MENU*/
+
+.link-menu-side a{
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0 10px;
+    color: rgb(247, 182, 0);
+}
+
+.link-menu-side a:hover{
+    text-decoration: underline;
+}
+
+.side-posting p{
+    font-size: 0.8em;
+    padding: 0 5px;
+    text-align: justify;
+}
+
+.side-posting a{
+    font-size: 0.8em;
+    padding: 0 5px;
+}
+
+.side-content h3{
+    margin: 10px;
+}
+
+/* ----LAYOUT RODAPÉ---- */
+
+#rodape{
+    clear: both;
+    background-color: rgb(247, 182, 0);
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+}
+
 
