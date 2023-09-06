@@ -209,24 +209,36 @@ body{
 }
 
 #footer-subscribe{
-
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 #footer-copyright{
-
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(199, 147, 4);
 }
 
 .footer-links{
     display: flex;
-
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
 }
 
 .footer-logos{
     text-decoration: none;
 }
 
-.input_group{
-
+#input_group{
+    display: flex;
+    align-items: center;
+    background-color: #000814;
+    border-radius: 4px;
 }
 
 /* ----FORMATAÇÃO RODAPÉ----*/
@@ -267,3 +279,35 @@ body{
     background-color: #25d366;
 }
 
+.footer-links .footer-logo {
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+.footer-links .footer-logo:hover{
+    color: #fcefb4;
+}
+
+#footer-subscribe p{
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+}
+
+#input_group input{
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button{
+    color: #000814;
+    background-color: #fff;
+    padding: 0 1.25rem;
+    font-size: 1.25rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0; 
+    cursor: pointer;
+    transition: all 0.5s;
+}
