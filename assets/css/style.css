@@ -187,12 +187,83 @@ body{
 
 /* ----LAYOUT RODAPÉ---- */
 
-#rodape{
+#footer{
     clear: both;
     background-color: rgb(247, 182, 0);
-    text-align: center;
-    padding: 50px;
     color: #fff;
+    letter-spacing: 1px;
+    width: 100%;
 }
 
+#footer-content{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_social_media{
+    display: flex;
+    gap: 2rem; /* espaçamento entre itens*/;
+    margin-top: 1.5rem;
+}
+
+#footer-subscribe{
+
+}
+
+#footer-copyright{
+
+}
+
+.footer-links{
+    display: flex;
+
+}
+
+.footer-logos{
+    text-decoration: none;
+}
+
+.input_group{
+
+}
+
+/* ----FORMATAÇÃO RODAPÉ----*/
+
+#footer-contacts h1{
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media .footer-logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-logos i{
+    font-size: 1.25rem;
+}
+
+#footer_social_media .footer-logos:hover{
+    opacity: 0.7;
+}
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook{
+    background-color: #4267b3;
+    padding-left: 1px;
+}
+
+#whatsapp{
+    background-color: #25d366;
+}
 
